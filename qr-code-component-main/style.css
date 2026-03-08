@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* Modern CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* html {
+  color-scheme: light dark;
+} */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*End CSS Reset */
+/*Root Set */
+:root {
+  font-size: 62.5%;
+  font-family: "Outfit", sans-serif;
+  user-select: none;
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+
+/*End Root Reset */
+/*Start Style */
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  background-color: var(--slate-300);
+  background-repeat: no-repeat;
+  background-repeat: repeat-y;
+  background-size: cover;
+  height: 100vh;
+  overflow: scroll;
+  display: flex;
+}
+.container {
+  background-color: var(--white);
+  margin: auto;
+  max-width: 32rem;
+  text-align: center;
+  border-radius: 2rem;
+  padding: 1.6rem 1.6rem 4rem 1.6rem;
+}
+
+.container img{
+  border-radius: 1.6rem;
+  
+}
+.container h1{
+  color: var(--slate-900);
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 120%;
+  margin: 2.4rem 1.6rem 1.6rem;
+}
+
+.container p{
+  font-size: 1.5rem;
+  letter-spacing: .2px;
+  line-height: 140%;
+  color: var(--slate-500);
+  margin: 0 1.6rem;
+}
