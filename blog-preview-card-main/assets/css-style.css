@@ -63,6 +63,11 @@ a {
   box-shadow: 8px 8px #000;
 }
 
+.container:hover{
+  transform: scale(1.05);
+  transition: all ease-in-out 150ms;
+}
+
 .container_content img {
   border-radius: 2rem;
   max-width: 100%;
@@ -114,6 +119,8 @@ a {
   width: 3.2rem;
 }
 
+
+
 /* --------------- Footer ---------------*/
 .attribution {
   font-size: 11px;
@@ -122,4 +129,17 @@ a {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 374px) {
+  .container {
+  display: flex;
+  flex-direction: column;
+}
+.container_content a {
+  font-size: 2.4rem;
+}
+.container_content p:last-child {
+  font-size: 1.6rem;
+}
 }
