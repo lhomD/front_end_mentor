@@ -1,0 +1,54 @@
+    /* Modern CSS Reset */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    /*    html {
+      color-scheme: light dark;
+    } */
+
+    img,
+    picture {
+      max-width: 100%;
+      display: block;
+    }
+
+    button,
+    input,
+    textarea,
+    select {
+      font: inherit;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /*End CSS Reset */
+    /*Root Set */
+    :root {
+      /* font-size: 62.5%;
+      font-family: "Outfit", sans-serif;
+      user-select: none;
+      --white: hsl(0, 0%, 100%);
+      --slate-300: hsl(212, 45%, 89%);
+      --slate-500: hsl(216, 15%, 48%);
+      --slate-900: hsl(218, 44%, 22%); */
+    }
+
+    /*End Root Reset */
+
+    /*Start Style */
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }

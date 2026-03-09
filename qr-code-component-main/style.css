@@ -8,15 +8,14 @@
   margin: 0;
   padding: 0;
 }
-/* html {
+html {
   color-scheme: light dark;
-} */
+}
 img,
 picture {
   max-width: 100%;
   display: block;
 }
-
 button,
 input,
 textarea,
@@ -28,7 +27,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
 /*End CSS Reset */
 /*Root Set */
 :root {
@@ -40,7 +38,6 @@ a {
   --slate-500: hsl(216, 15%, 48%);
   --slate-900: hsl(218, 44%, 22%);
 }
-
 /*End Root Reset */
 /*Start Style */
 body {
