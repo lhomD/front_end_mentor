@@ -1,54 +1,126 @@
-    /* Modern CSS Reset */
-    *,
-    *::before,
-    *::after {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+/* --------------- Reset ---------------*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-    /*    html {
-      color-scheme: light dark;
-    } */
+/*    
+html {
+  color-scheme: light dark;
+}
 
-    img,
-    picture {
-      max-width: 100%;
-      display: block;
-    }
+*/
 
-    button,
-    input,
-    textarea,
-    select {
-      font: inherit;
-    }
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
 
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
 
-    /*End CSS Reset */
-    /*Root Set */
-    :root {
-      /* font-size: 62.5%;
-      font-family: "Outfit", sans-serif;
-      user-select: none;
-      --white: hsl(0, 0%, 100%);
-      --slate-300: hsl(212, 45%, 89%);
-      --slate-500: hsl(216, 15%, 48%);
-      --slate-900: hsl(218, 44%, 22%); */
-    }
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/* --------------- End Reset ---------------*/
 
-    /*End Root Reset */
+/* --------------- Root ---------------*/
+:root {
+  font-size: 62.5%;
+    font-family: "Figtree", sans-serif;
+    --White: hsl(0, 0%, 100%);
+    --Yellow: hsl(47, 88%, 63%);
+    --Gray_500: hsl(0, 0%, 42%);
+    --Gray_950: hsl(0, 0%, 7%);
+  }
 
-    /*Start Style */
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
+/* --------------- Style ---------------*/
+.wrapper {
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: var(--Yellow);
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2.4rem;
+}
+.container{
+  max-width: 38.4rem;
+  background-color: var(--White);
+  border: 3px solid #111111;
+  border-radius: 2rem;
+  margin: auto 2.4rem;
+  padding: 2.4rem;
+  box-shadow: 8px 8px #000;
+}
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
+.container_content img{
+  border-radius: 2rem;
+  max-width: 100%;
+  margin-bottom: 2.4rem;
+  width: 100%;
+}
+
+.container_content span {
+  background-color: var(--Yellow);
+  color: var(--Gray_950);
+  font-weight: bolder;
+  font-size: 1.2rem;
+  padding: .4rem 1.2rem;
+  border-radius: .4rem;
+}
+
+.container_content p:nth-of-type(1) {
+  margin: 1.2rem 0;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.container_content a {
+  font-size: 2rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.container_content a:hover {
+  color: var(--Yellow);
+  transition: color ease-in-out 150ms;
+}
+
+.container_content p:last-child{
+  margin: 1.2rem 0 2.4rem;
+  color: var(--Gray_500);
+  font-size: 1.4rem;
+}
+
+.container_author{
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  color: var(--Gray_950);
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
+.container_author img{
+  width: 3.2rem;
+}
+
+/* --------------- Footer ---------------*/
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
