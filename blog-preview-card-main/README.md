@@ -13,7 +13,6 @@ Users should be able to:
 
 
 ### Links
-- Solution URL: [Add solution URL here](https://github.com/lhomD/front_end_mentor/tree/main/blog-preview-card-main)
 - Live Site URL: [Add live site URL here](https://clinquant-tanuki-c31e07.netlify.app/blog-preview-card-main/)
 
 ### Built with
@@ -21,8 +20,3 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
-
-### What I learned
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
