@@ -8,7 +8,8 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-![](/assets/images/preview.jpg)
+![](/assets/images/Frontend%20Mentor%20Blog%20preview%20card.png)
+![](/assets/images/Frontend%20Mentor%20Blog%20preview%20card2.png)
 
 
 ### Links
