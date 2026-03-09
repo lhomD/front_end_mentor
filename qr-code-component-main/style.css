@@ -43,7 +43,7 @@ a {
 
 /*End Root Reset */
 /*Start Style */
-body {
+main {
   min-height: 100vh;
   line-height: 1.5;
   text-rendering: optimizeSpeed;
