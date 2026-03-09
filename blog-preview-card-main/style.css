@@ -11,7 +11,6 @@
 html {
   color-scheme: light dark;
 }
-
 */
 
 img,
@@ -36,12 +35,12 @@ a {
 /* --------------- Root ---------------*/
 :root {
   font-size: 62.5%;
-    font-family: "Figtree", sans-serif;
-    --White: hsl(0, 0%, 100%);
-    --Yellow: hsl(47, 88%, 63%);
-    --Gray_500: hsl(0, 0%, 42%);
-    --Gray_950: hsl(0, 0%, 7%);
-  }
+  font-family: "Figtree", sans-serif;
+  --White: hsl(0, 0%, 100%);
+  --Yellow: hsl(47, 88%, 63%);
+  --Gray_500: hsl(0, 0%, 42%);
+  --Gray_950: hsl(0, 0%, 7%);
+}
 
 /* --------------- Style ---------------*/
 .wrapper {
@@ -54,7 +53,7 @@ a {
   align-items: center;
   padding-bottom: 2.4rem;
 }
-.container{
+.container {
   max-width: 38.4rem;
   background-color: var(--White);
   border: 3px solid #111111;
@@ -64,7 +63,7 @@ a {
   box-shadow: 8px 8px #000;
 }
 
-.container_content img{
+.container_content img {
   border-radius: 2rem;
   max-width: 100%;
   margin-bottom: 2.4rem;
@@ -76,8 +75,8 @@ a {
   color: var(--Gray_950);
   font-weight: bolder;
   font-size: 1.2rem;
-  padding: .4rem 1.2rem;
-  border-radius: .4rem;
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.4rem;
 }
 
 .container_content p:nth-of-type(1) {
@@ -97,13 +96,13 @@ a {
   transition: color ease-in-out 150ms;
 }
 
-.container_content p:last-child{
+.container_content p:last-child {
   margin: 1.2rem 0 2.4rem;
   color: var(--Gray_500);
   font-size: 1.4rem;
 }
 
-.container_author{
+.container_author {
   display: flex;
   align-items: center;
   gap: 1.2rem;
@@ -111,7 +110,7 @@ a {
   font-weight: bolder;
   font-size: 1.4rem;
 }
-.container_author img{
+.container_author img {
   width: 3.2rem;
 }
 
