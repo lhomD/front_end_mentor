@@ -30,7 +30,6 @@ a {
 /*End CSS Reset */
 /*Root Set */
 :root {
-  font-size: 62.5%;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -61,11 +60,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 38.4rem;
-  padding: 2.4rem 2.4rem 2.8rem;
-  border-radius: 1.6rem;
-  margin: auto 1.6rem;
-  box-shadow: 4px 4px 15px hsla(0, 0%, 32%, 0.25);
+  max-width: 24rem;
+  padding: 1.5rem 1.5rem 1.75rem;
+  border-radius: 1rem;
+  margin: auto 1rem;
 }
 
 .wrapper-profile {
@@ -75,42 +73,42 @@ body {
 }
 
 .wrapper img {
-  width: 8.8rem;
+  width: 5.5rem;
   border-radius: 50%;
-  margin-bottom: 2.8rem;
+  margin: 0 0 1.75rem;
+}
+
+.wrapper h1 {
+  font-size: 0.938rem;
+  font-weight: bold;
+  margin: 0 0 0.8rem;
 }
 
 .wrapper h2 {
-  font-size: 2.4rem;
-  font-weight: bold;
-  margin-bottom: 0.8rem;
-}
-
-.wrapper h3 {
   color: var(--green);
-  font-size: 1.4rem;
+  font-size: 0.875rem;
   font-weight: bold;
 }
 
 .wrapper p {
-  font-size: 1.4rem;
-  margin: 2.8rem 0;
+  font-size: 0.875rem;
+  margin: 1.75rem 0;
 }
 
 .wrapper-btn {
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 30.4rem;
-  gap: 1.8rem;
+  max-width: 19rem;
+  gap: 1.125rem;
 }
 
 .wrapper-btn input {
   border: none;
-  border-radius: 0.8rem;
-  font-size: 1.4rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
   font-weight: bold;
-  padding: 1.4rem 0;
+  padding: 0.875rem 0;
   background-color: var(--grey-700);
 }
 
@@ -122,17 +120,25 @@ body {
 }
 
 .attribution {
-  margin-bottom: 2.4rem;
+  margin: 0 0 1.5rem;
   color: hsl(228, 45%, 44%);
-  font-size: 1.6rem;
+  font-size: 0.875rem;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 23.5rem) {
   .wrapper {
-    padding: 4rem;
+    padding: 2.5rem;
   }
 
   .wrapper img {
-    width: 9rem;
+    width: 5.625rem;
   }
+}
+
+/* Tone down the animation to avoid vestibular motion triggers. */
+@media (prefers-reduced-motion: reduce) {
+.wrapper-btn input:hover {
+  background-color: var(--green);
+  color: var(--grey-900);
+}
 }
