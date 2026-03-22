@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+/* Modern CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  color-scheme: light dark;
+}
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+/*End CSS Reset */
+/*Root Set */
+:root {
+  font-size: 62.5%;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  /* Weights: 400, 600, 700 */
+  user-select: none;
+  --white: hsl(0, 0%, 100%);
+  --green: hsl(75, 94%, 57%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+}
+/*End Root Reset */
+/*Start Style */
+body {
+  line-height: 1.5;
+  text-rendering: optimizeSpeed;
+  background-color: var(gray-900);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  text-align: center;
+}
+
+.wrapper {
+  background-color: var(--grey-800);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 38.4rem;
+  padding: 2.4rem 2.4rem 2.8rem;
+  border-radius: 1.6rem;
+  margin: auto 1.6rem;
+  box-shadow: 4px 4px 15px hsla(0, 0%, 32%, 0.25);
+}
+
+.wrapper-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wrapper img {
+  width: 8.8rem;
+  border-radius: 50%;
+  margin-bottom: 2.8rem;
+}
+
+.wrapper h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.wrapper h4 {
+  color: var(--green);
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.wrapper p {
+  font-size: 1.4rem;
+  margin: 2.8rem 0;
+}
+
+.wrapper-btn {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 30.4rem;
+  gap: 1.8rem;
+}
+
+.wrapper-btn input {
+  border: none;
+  border-radius: 0.8rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 1.4rem 0;
+  background-color: var(--grey-700);
+}
+
+.wrapper-btn input:hover {
+  background-color: var(--green);
+  color: var(--grey-900);
+  transition: all ease-in 150ms;
+  cursor: pointer;
+}
+
+.attribution {
+  margin-bottom: 2.4rem;
+  color: hsl(228, 45%, 44%);
+  font-size: 1.6rem;
+}
+
+@media (min-width: 375px) {
+  .wrapper {
+    padding: 4rem;
+  }
+
+  .wrapper img {
+    width: 9rem;
+  }
+}
