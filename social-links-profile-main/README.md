@@ -11,9 +11,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 **Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
-
-- Solution URL: [https://github.com/lhomD/front_end_mentor/tree/main/social-links-profile-main]
-- Live Site URL: [https://clinquant-tanuki-c31e07.netlify.app/social-links-profile-main/]
+- Live Site URL: [Netlify](ttps://clinquant-tanuki-c31e07.netlify.app/social-links-profile-main/)
 
 ### Built with
 
