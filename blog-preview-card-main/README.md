@@ -8,9 +8,7 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Screenshot
-![](/assets/images/Frontend%20Mentor%20Blog%20preview%20card.png)
-![](/assets/images/Frontend%20Mentor%20Blog%20preview%20card2.png)
-
+![](/assets/images/Blog_preview_card.png)
 
 ### Links
 - [Netlify](https://clinquant-tanuki-c31e07.netlify.app/blog-preview-card-main/)
