@@ -36,13 +36,12 @@ a {
   font-style: normal;
   user-select: none;
   --White: hsl(0, 0%, 100%);
-  --Stone-100: hsl(30, 54%, 90%);/* USED */
-  --Stone-150: hsl(30, 18%, 87%); /* USED */
-  --Stone-600: hsl(30, 10%, 34%);
-  --Stone-900: hsl(24, 5%, 18%); /* USED */
-  --Brown-800: hsl(14, 45%, 36%); /* USED */
-  --Rose-800: hsl(332, 51%, 32%); /* USED */
-  --Rose-50: hsl(330, 100%, 98%); /* USED */
+  --Stone-100: hsl(30, 54%, 90%);
+  --Stone-150: hsl(30, 18%, 87%);
+  --Stone-900: hsl(24, 5%, 18%);
+  --Brown-800: hsl(14, 45%, 36%);
+  --Rose-800: hsl(332, 51%, 32%);
+  --Rose-50: hsl(330, 100%, 98%);
 }
 body{
   background-color: var(--Stone-100);
@@ -60,8 +59,7 @@ body{
   line-height: 2.188rem;
 }
 .wrapper__hero-text{
-  margin-left: 1.94rem;
-  margin-right: 2rem;
+  margin: 0 2rem 0 1.94rem;
   font-size: 1rem;
   line-height: 1.5rem;
 } /* End Hero Section */
@@ -144,12 +142,12 @@ body{
 .wrapper__instructions-list li{
   padding: 0 0 .5rem 1rem;
 }
-.wrapper__instructions-list span{
-  font-weight: bold;
-}
 .wrapper__instructions-list li::marker{
   color: var(--Brown-800);
   font-weight: bolder;
+}
+.wrapper__instructions-list span{
+  font-weight: bold;
 }/* End Instructions Section */
 /* Start nutritions Section */
 .wrapper__nutritions-header{
@@ -174,11 +172,16 @@ body{
   text-align: left;
   padding: 0 3.8rem;
 }
-.wrapper__nutritions th, td {
-  /* border-collapse: collapse; */
+.wrapper__nutritions th{
   border-bottom: solid 2px var(--Stone-150);
 }
-.wrapper__nutritions th, td{
+.wrapper__nutritions td {
+  border-bottom: solid 2px var(--Stone-150);
+}
+.wrapper__nutritions th{
+  padding: 0.75rem 0;
+}
+.wrapper__nutritions td{
   padding: 0.75rem 0;
 }
 .wrapper__nutritions td{
@@ -187,7 +190,7 @@ body{
 }/* End Nutritions Section */
 /* Start Atribution Section */
 .attribution {
-  font-size: 11px;
+  font-size: 0.688rem;
   text-align: center;
   padding: 1rem;
   color: var(--Stone-900);
