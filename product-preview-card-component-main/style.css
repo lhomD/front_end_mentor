@@ -138,7 +138,7 @@ body {
   border: 0;
   background-color: transparent;
   color: var(--card-bg-color);
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 0.75rem;
   line-height: 1.438rem;
