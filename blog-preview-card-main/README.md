@@ -11,7 +11,7 @@ Users should be able to:
 ![](./assets/images/screenshot.png)
 
 ### Links
-- [Netlify](https://clinquant-tanuki-c31e07.netlify.app/blog-preview-card-main/)
+- [Netlify](https://clinquant-tanuki-c31e07.netlify.app/product-preview-card-component-main/)
 
 ### Built with
 - Semantic HTML5 markup

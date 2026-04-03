@@ -14,7 +14,7 @@
 
 * {
   margin: 0;
-  padding: 0%;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -79,11 +79,10 @@ body {
 
 .card_content-description {
   font-family: "Montserrat", sans-serif;
-  font-size: 15px;
   line-height: 23px;
   font-weight: 500;
   color: var(--paragrph-color);
-  font-size: 15px;
+  font-size: 0.938rem;
   margin-bottom: 1.5rem;
   letter-spacing: -0.03em;
 }
@@ -102,7 +101,7 @@ body {
 }
 
 .card_content-price-old {
-  font-family: "Montserrat";
+  font-family: "Montserrat" ;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -113,7 +112,7 @@ body {
 }
 
 .card_content_cta {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 14px;
   line-height: 23px;
@@ -127,7 +126,12 @@ body {
   align-items: center;
   gap: 1rem;
   cursor: pointer;
-  transition: background-color 300ms ease;
+  transition: background-color 150ms ease;
+}
+@media (prefers-reduced-motion: reduce){
+  .card_content_cta{
+    transition: background-color 450ms ease;
+  }
 }
 
 .card_content_cta-btn {
