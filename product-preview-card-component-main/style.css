@@ -79,7 +79,7 @@ body {
 
 .card_content-description {
   font-family: "Montserrat", sans-serif;
-  line-height: 23px;
+  line-height: 1.438rem;
   font-weight: 500;
   color: var(--paragrph-color);
   font-size: 0.938rem;
@@ -101,7 +101,7 @@ body {
 }
 
 .card_content-price-old {
-  font-family: "Montserrat" ;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
