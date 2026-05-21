@@ -43,6 +43,7 @@ a {
   --Rose-800: hsl(332, 51%, 32%);
   --Rose-50: hsl(330, 100%, 98%);
 }
+
 body{
   background-color: var(--Stone-100);
 }
