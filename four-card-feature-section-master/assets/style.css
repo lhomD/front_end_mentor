@@ -40,6 +40,7 @@ a {
   --line-red: hsl(0, 78%, 62%);
   --line-orange: hsl(34, 97%, 64%);
   --line-blue: hsl(212, 86%, 64%);
+  --card-shadow: 5px 10px 25px 5px rgba(0, 0, 0, 0.15);
 }
 
 .wrapper {
@@ -49,7 +50,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0 0 1rem 0;
+  padding-bottom: 1rem;
 }
 /* HERO STYLE */
 .main {
@@ -84,11 +85,11 @@ a {
 /* CARDS STYLE */
 .main__cards__card {
   margin-bottom: 2rem;
-  -webkit-box-shadow: 5px 10px 25px 5px rgba(0, 0, 0, 0.15);
-  box-shadow: 5px 10px 25px 5px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: var(--card-shadow);
+  box-shadow: var(--card-shadow);
   border-radius: 0.625rem;
   position: relative;
-  padding: 0 0 2.875rem 0;
+  padding-bottom: 2.875rem;
   max-width: 21.875rem;
   min-width: 19.625rem;
   max-height: 15.625rem;
