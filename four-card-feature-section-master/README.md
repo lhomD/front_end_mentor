@@ -8,7 +8,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://clinquant-tanuki-c31e07.netlify.app/four-card-feature-section-master/)
+- Live Site URL: [https://clinquant-tanuki-c31e07.netlify.app/four-card-feature-section-master/]
 
 ### Built with
 
